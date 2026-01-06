@@ -1,5 +1,5 @@
 
-export const GOOGLE_GEMINI_API_KEY = "AIzaSyCDHcKAnVQB1JidVPPZ0yFsjp4CmYsrbPQ";
+export const GOOGLE_GEMINI_API_KEY = import.meta.env.VITE_GOOGLE_GEMINI_API_KEY || "";
 
 export const PLANS = {
     FREE: {
